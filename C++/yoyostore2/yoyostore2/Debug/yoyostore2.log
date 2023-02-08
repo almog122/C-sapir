@@ -1,0 +1,4 @@
+﻿  Game .cpp
+  Yoyo.cpp
+c:\users\almog fadida\source\repos\yoyostore2\yoyostore2\yoyo.cpp(102): error C3688: invalid literal suffix 'fA'; literal operator or literal operator template 'operator ""fA' not found
+  Generating Code...

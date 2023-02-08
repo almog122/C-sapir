@@ -2,8 +2,9 @@
 
 #pragma once
 #include <iostream>
+#include <cassert>
 using namespace std;
-#define SIZE 20   //size of the queue
+#define SIZE 3   //size of the queue
 
 class yeladudes {
 
@@ -34,6 +35,7 @@ public:
 
 	//Functions especially for this program 
 
+	void biggerQueue(yeladudes other);
 	void removePatientFromQueue();
 	void printQ();
 	int popchild();

@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (class4.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Door.cpp
+c:\users\almog fadida\source\repos\class4\class4\door.cpp(29): warning C4305: '=': truncation from 'double' to 'float'
+  Store.cpp
+  Generating Code...
+  class4.vcxproj -> C:\Users\Almog Fadida\source\repos\class4\Debug\Factory.exe

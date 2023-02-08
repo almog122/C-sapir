@@ -1,0 +1,7 @@
+﻿  q5.cpp
+c:\users\almog fadida\source\repos\assingment3\assingment3\q5.cpp(15): warning C4154: deletion of an array expression; conversion to pointer supplied
+q2.obj : error LNK2005: _main already defined in q1.obj
+q3.obj : error LNK2005: _main already defined in q1.obj
+q4.obj : error LNK2005: _main already defined in q1.obj
+q5.obj : error LNK2005: _main already defined in q1.obj
+C:\Users\Almog Fadida\source\repos\Assingment3\Debug\Assingment3.exe : fatal error LNK1169: one or more multiply defined symbols found

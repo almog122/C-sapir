@@ -17,6 +17,8 @@ int main() {
 
 	yeladudes* queue = new yeladudes();
 
+	assert(queue);
+
 	int choice;
 
 	do {

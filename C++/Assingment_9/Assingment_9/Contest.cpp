@@ -1,0 +1,2 @@
+#include "Contest.h"
+

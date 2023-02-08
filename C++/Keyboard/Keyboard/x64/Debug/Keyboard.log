@@ -1,0 +1,7 @@
+﻿  KEYBOARD.cpp
+c:\users\almog fadida\source\repos\keyboard\keyboard\keyboard.cpp(62): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\almog fadida\source\repos\keyboard\keyboard\keyboard.cpp(70): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\almog fadida\source\repos\keyboard\keyboard\keyboard.cpp(174): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\almog fadida\source\repos\keyboard\keyboard\keyboard.cpp(201): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\almog fadida\source\repos\keyboard\keyboard\keyboard.cpp(272): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Keyboard.vcxproj -> C:\Users\Almog Fadida\source\repos\Keyboard\x64\Debug\Keyboard.exe

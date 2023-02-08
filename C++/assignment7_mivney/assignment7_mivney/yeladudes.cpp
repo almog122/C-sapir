@@ -34,11 +34,29 @@ void yeladudes::initQ() {
 	
 	arrq = new int[SIZE] {NULL};  //initilazing the arr (as queue) with size 20 and each one will be NULL at the beginning
 
+	assert(arrq);
+
 	head = 0; //In the beginning head and end are at the same place, the start.
 	
 	end = 0;
 
 	size = 0; //no elements are inside at first
+
+}
+
+void yeladudes::biggerQueue(yeladudes other) {
+	
+	int* temp = new int[other.size + SIZE];
+
+	assert(temp);
+
+	for (int i = 0; i < other.size; i++) {
+		temp[i] = other.arrq[i];
+	}
+	
+	delete[] other.arrq;
+	
+	other.arrq = temp;
 
 }
 
@@ -50,13 +68,13 @@ void yeladudes::enqueue(const int ID_patient) {
 
 	else {
 		if (size == SIZE) { //The queue is full and there's no place to enqueue
-			cout << "no more room in queue" << endl; 
+			biggerQueue(*this);
 		}
 
 		else { //if (end != head) - there's room in queue
 			arrq[end] = ID_patient;  //we put ID at the value of the end
 			
-			end = (end + 1) % SIZE; //and than change end place one step more in the queue (mod because it's circular queue,
+			end = (end + 1) ; //and than change end place one step more in the queue (mod because it's circular queue,
 			//means if we're at the 20 box (the end) so it goes to the beginning again after that.
 			
 			size++; //increase size because we enqueue one
@@ -73,7 +91,7 @@ int yeladudes::dequeue() { //dequeue will remove the first element in queue and 
 		temp = arrq[head]; //put the value of the first element in queue inside temp
 		arrq[head] = NULL; //and delete the value now
 		
-		head = (head + 1) % SIZE; //increase head like before (in mod for a circular manner)
+		head = (head + 1); //increase head like before (in mod for a circular manner)
 
 		size--; //decrease size
 
@@ -132,6 +150,8 @@ int yeladudes::popchild() {
 	
 	int firstChild;
 	yeladudes* temp = new yeladudes(); // Make a new queue
+
+	assert(temp);
 	
 	while (!(this->empty()) && (this->front()) < 1000 ) { //Until we encounter a patient with ID bigger then 999 (child)
 		temp->enqueue(this->dequeue());					//we take the head of the main queue (adult) and put him in a temp queue
@@ -164,7 +184,8 @@ void yeladudes::printQ() {
 	
 	yeladudes* temp = new yeladudes(); //we use a second arr as queue in order to implements print function without damaging the main
 										//queue order.
-	
+	assert(temp);
+
 	while(!this->empty()){ 
 		temp->enqueue(this->front()); //we add the head of the main queue without removing it and we add it to the temp queue
 		cout << "The patient: " << this->dequeue() << " is in the queue" << endl; //we print the patient that in the queue.

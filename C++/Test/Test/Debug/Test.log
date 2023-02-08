@@ -1,0 +1,10 @@
+﻿  Source.cpp
+c:\users\almog fadida\source\repos\test\test\source.cpp(19): error C2248: 'Date::Date': cannot access private member declared in class 'Date'
+  c:\users\almog fadida\source\repos\test\test\source.cpp(7): note: see declaration of 'Date::Date'
+  c:\users\almog fadida\source\repos\test\test\source.cpp(5): note: see declaration of 'Date'
+c:\users\almog fadida\source\repos\test\test\source.cpp(19): error C2248: 'Date::~Date': cannot access private member declared in class 'Date'
+  c:\users\almog fadida\source\repos\test\test\source.cpp(8): note: see declaration of 'Date::~Date'
+  c:\users\almog fadida\source\repos\test\test\source.cpp(5): note: see declaration of 'Date'
+c:\users\almog fadida\source\repos\test\test\source.cpp(26): error C2248: 'Date::~Date': cannot access private member declared in class 'Date'
+  c:\users\almog fadida\source\repos\test\test\source.cpp(8): note: see declaration of 'Date::~Date'
+  c:\users\almog fadida\source\repos\test\test\source.cpp(5): note: see declaration of 'Date'

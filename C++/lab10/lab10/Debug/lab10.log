@@ -1,0 +1,5 @@
+﻿  Dog.cpp
+  Zoo.cpp
+c:\users\almog fadida\source\repos\lab10\lab10\zoo.cpp(3): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Generating Code...
+  lab10.vcxproj -> C:\Users\Almog Fadida\source\repos\lab10\Debug\lab10.exe

@@ -1,0 +1,14 @@
+﻿  Bill.cpp
+c:\users\almog fadida\source\repos\friendship\friendship\bill.cpp(8): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\almog fadida\source\repos\friendship\friendship\bill.cpp(9): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  CreditCard.cpp
+c:\users\almog fadida\source\repos\friendship\friendship\creditcard.cpp(15): error C2027: use of undefined type 'House'
+  c:\users\almog fadida\source\repos\friendship\friendship\creditcard.h(2): note: see declaration of 'House'
+  House.cpp
+c:\users\almog fadida\source\repos\friendship\friendship\house.cpp(10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  WaterCompany.cpp
+c:\users\almog fadida\source\repos\friendship\friendship\watercompany.h(7): error C2061: syntax error: identifier 'House'
+c:\users\almog fadida\source\repos\friendship\friendship\watercompany.cpp(15): error C2511: 'void WaterCompany::add_usage(House &,float)': overloaded member function not found in 'WaterCompany'
+  c:\users\almog fadida\source\repos\friendship\friendship\watercompany.h(2): note: see declaration of 'WaterCompany'
+c:\users\almog fadida\source\repos\friendship\friendship\watercompany.cpp(18): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
