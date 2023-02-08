@@ -1,0 +1,24 @@
+Enter number of process
+4
+Enter number of resources
+5
+Enter Allocation Row 0
+10211
+Enter Allocation Row 1
+20110
+Enter Allocation Row 2
+11010
+Enter Allocation Row 3
+11110
+Enter MaxDemand Row 0
+11213
+Enter MaxDemand Row 1
+22210
+Enter MaxDemand Row 2
+21310
+Enter MaxDemand Row 3
+11221
+Enter Available
+00112
+Enter Resource index
+4
